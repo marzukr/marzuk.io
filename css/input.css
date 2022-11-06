@@ -10,8 +10,3 @@
   @apply underline;
   @apply visited:text-inherit;
 }
-
-.list-shift {
-  @apply -left-3;
-  @apply relative;
-}
