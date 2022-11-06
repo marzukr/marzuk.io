@@ -1,7 +1,9 @@
 {
   "scripts": {
+    "install": "chmod -R +x .githooks && git config --local core.hooksPath .githooks/",
+    "build-production": "npx tailwindcss -i ./css/input.css -o ./assets/css/output.css --minify",
     "start-jekyll": "bundle exec jekyll serve --livereload",
-    "start-tailwind": "npx tailwindcss -i ./css/input.css -o ./site/assets/css/output.css --watch",
+    "start-tailwind": "npx tailwindcss -i ./css/input.css -o ./assets/css/output.css --watch",
     "start": "concurrently -kn jekyll,tailwind \"npm:start-jekyll\" \"npm:start-tailwind\""
   },
   "devDependencies": {
