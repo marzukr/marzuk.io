@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "start-jekyll": "bundle exec jekyll serve --livereload",
+    "start-tailwind": "npx tailwindcss -i ./css/input.css -o ./site/assets/css/output.css --watch",
+    "start": "concurrently -kn jekyll,tailwind \"npm:start-jekyll\" \"npm:start-tailwind\""
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.2.2"
+  },
+  "dependencies": {
+    "concurrently": "^7.5.0"
+  }
+}
