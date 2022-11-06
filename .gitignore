@@ -4,4 +4,4 @@ _site
 .jekyll-cache/
 .vscode/
 .vscode
-node_modules/
+node_modules
