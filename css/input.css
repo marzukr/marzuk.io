@@ -3,3 +3,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.link-style {
+  @apply hover:text-gray-500;
+  /* @apply hover:rounded-sm; */
+  @apply transition;
+  @apply underline;
+}
+
+.link-group > a {
+  @apply link-style;
+}

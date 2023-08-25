@@ -6,7 +6,11 @@ module.exports = {
       sans: '\'Lexend Deca\', sans-serif',
       serif: '\'Lora\', serif',
     },
-    extend: {},
+    extend: {
+      screens: {
+        'xs': '321px',
+      },
+    },
   },
   plugins: [],
 }
