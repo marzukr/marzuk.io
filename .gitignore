@@ -5,3 +5,5 @@ _site
 .vscode/
 .vscode
 node_modules
+vendor
+.bundle
