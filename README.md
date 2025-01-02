@@ -6,6 +6,6 @@ This is my personal website. I made it myself.
 
 ```
 bundle install
-npm install
-npm run start
+yarn install
+yarn start
 ```
