@@ -10,10 +10,15 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Install pnpm
+        uses: pnpm/action-setup@v3
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22.x
+          cache: pnpm
       - name: Install dependencies
-        run: |
-          corepack enable
-          pnpm install
+        run: pnpm install
       - name: lint
         run: |
           pnpm run lint
