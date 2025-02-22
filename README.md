@@ -2,10 +2,9 @@
 
 This is my personal website. I made it myself.
 
-## Building
+## Developing
 
-```
-sudo bundle install
-npm install
-sudo npm run start
+```bash
+pnpm install
+pnpm run dev
 ```
