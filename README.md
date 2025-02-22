@@ -2,10 +2,9 @@
 
 This is my personal website. I made it myself.
 
-## Building
+## Developing
 
-```
-bundle install
-yarn install
-yarn start
+```bash
+pnpm install
+pnpm run dev
 ```
