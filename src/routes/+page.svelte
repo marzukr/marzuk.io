@@ -6,6 +6,6 @@
   />
 </svelte:head>
 
-<div class="flex h-screen w-screen items-center justify-center bg-black">
+<div class="flex h-screen w-screen items-center justify-center">
   <p class="text-white">MARZUK</p>
 </div>

@@ -4,3 +4,9 @@
 </script>
 
 {@render children()}
+
+<style>
+  :global(body) {
+    background-color: black;
+  }
+</style>
