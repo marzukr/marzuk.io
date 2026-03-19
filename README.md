@@ -1,10 +1,3 @@
 # marzukr.io
 
-This is my personal website. I made it myself.
-
-## Developing
-
-```bash
-pnpm install
-pnpm run dev
-```
+[linkedin.co/in/marzukr](https://www.linkedin.com/in/marzukr/)
